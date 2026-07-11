@@ -1,4 +1,10 @@
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Premium Rooms & Suites | Best Stay in Haldwani - Cedara",
+  description: "Explore our Deluxe, Premium, and Suite rooms at Cedara Hotels. Enjoy mountain views, modern amenities, and a luxury stay near Kathgodam.",
+};
 
 export default function RoomsPage() {
   const rooms = [

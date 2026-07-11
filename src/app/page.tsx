@@ -73,6 +73,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col min-h-screen font-sans text-[#333]">
+      <h1 className="sr-only">Cedara Hotels & Retreats - The Best Luxury Hotel in Haldwani, near Kathgodam and Nainital. A premium, family and business boutique hotel in Kumaon.</h1>
       {/* Hero Section */}
       <section id="home" className="relative w-full h-[100vh] flex items-center bg-[#051126] overflow-hidden">
         {slides.map((slide, index) => (
@@ -93,11 +94,11 @@ export default function Home() {
         
         <div className="relative z-10 w-full max-w-[1400px] mx-auto px-6 lg:px-12 mt-20">
           <div className="min-h-[200px]">
-            <h1 className="text-5xl md:text-7xl font-serif text-white mb-6 leading-[1.1] max-w-2xl font-light transition-all duration-700 ease-out transform translate-y-0 opacity-100">
+            <h2 className="text-5xl md:text-7xl font-serif text-white mb-6 leading-[1.1] max-w-2xl font-light transition-all duration-700 ease-out transform translate-y-0 opacity-100">
               {slides[currentSlide].title.split(' ').map((word, i, arr) => 
                 i === arr.length - 1 ? <span key={i} className="text-[#3a75e3]"> {word}</span> : (i === arr.length - 2 ? ` ${word}` : `${word} `)
               )}
-            </h1>
+            </h2>
             <p className="text-sm md:text-base text-gray-300 font-light max-w-md mb-10 leading-relaxed transition-all duration-700 ease-out delay-100">
               {slides[currentSlide].subtitle}
             </p>
@@ -145,12 +146,9 @@ export default function Home() {
                 <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>
                 About Us
               </div>
-              <h2 className="text-4xl md:text-5xl font-serif text-[#111] mb-8 leading-tight">
-                A Stay That<br/>
-                <span className="text-[#2653d9]">Stays</span> With You
-              </h2>
-              <p className="text-gray-500 mb-10 leading-relaxed text-sm">
-                At Cedara Hotels and Retreats, we blend elegance, comfort, and nature to create memorable experiences. Whether you're here to relax, celebrate, or explore – we make every moment special.
+              <h2 className="text-3xl md:text-4xl font-serif text-[#111] mb-6">A Peaceful Hotel in Uttarakhand</h2>
+              <p className="text-gray-500 mb-6 leading-relaxed">
+                Experience a truly premium stay in Haldwani. Nestled in breathtaking landscapes, Cedara is the perfect weekend getaway in Uttarakhand. Whether you are seeking a family hotel in Haldwani, a corporate retreat, or a luxury stay in Kumaon, our properties are designed to be a seamless extension of their surroundings.
               </p>
               <a href="/about" className="border border-[#2653d9] text-[#2653d9] hover:bg-[#2653d9] hover:text-white px-8 py-3 text-xs font-semibold tracking-wider transition-colors uppercase flex items-center gap-3 w-fit mb-16 inline-flex">
                 Discover More <span>→</span>

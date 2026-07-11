@@ -1,4 +1,10 @@
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Cedara | Luxury Resort & Hotel near Nainital",
+  description: "Discover the story of Cedara Hotels & Retreats, a premium nature retreat in Haldwani offering peaceful stays, business facilities, and weekend getaways in Kumaon.",
+};
 
 export default function AboutPage() {
   return (

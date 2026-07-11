@@ -1,3 +1,10 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Hotel Policies | Cedara Hotels & Retreats Haldwani",
+  description: "Review our hotel policies, check-in and check-out times, and cancellation terms for a seamless stay at Cedara Hotels & Retreats.",
+};
+
 export default function PoliciesPage() {
   return (
     <div className="flex flex-col min-h-screen font-sans text-[#333]">

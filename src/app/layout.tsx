@@ -20,8 +20,31 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Cedara Hotels & Retreats",
-  description: "Experience exceptional comfort, warm hospitality, and unforgettable moments at Cedara Hotels & Retreats.",
+  title: "Cedara Hotels & Retreats | Luxury Hotel in Haldwani, Uttarakhand",
+  description: "Experience luxury and comfort at Cedara Hotels & Retreats in Haldwani. Spacious rooms, modern amenities, warm hospitality, and easy access to Nainital, Kathgodam, and Kumaon attractions.",
+  keywords: [
+    "Hotel in Haldwani",
+    "Best Hotel in Haldwani",
+    "Luxury Hotel in Haldwani",
+    "Hotels in Haldwani",
+    "Budget Hotel in Haldwani",
+    "Premium Hotel Haldwani",
+    "Boutique Hotel in Haldwani",
+    "Family Hotel in Haldwani",
+    "Business Hotel Haldwani",
+    "Hotel near Kathgodam",
+    "Hotel near Nainital",
+    "Hotels near Nainital",
+    "Luxury Stay in Kumaon",
+    "Hotel with Mountain View",
+    "Weekend Getaway Uttarakhand",
+    "Stay in Haldwani",
+    "Best Stay in Haldwani",
+    "Luxury Retreat Uttarakhand",
+    "Hotels in Kumaon",
+    "Nature Retreat Haldwani",
+    "Peaceful Hotel in Uttarakhand"
+  ],
   icons: {
     icon: "/icon.jpg",
   },
