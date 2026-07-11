@@ -2,9 +2,15 @@ import { NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
 
 export async function POST(request: Request) {
+  let data;
   try {
-    const data = await request.json();
-    const { firstName, lastName, email, phone, checkIn, checkOut, adults, children, message } = data;
+    data = await request.json();
+  } catch (e) {
+    return NextResponse.json({ success: false, error: 'Invalid JSON' }, { status: 400 });
+  }
+  const { firstName, lastName, email, phone, checkIn, checkOut, adults, children, message } = data;
+
+  try {
 
     // Configuring SMTP using Hostinger's standard port (change to smtp.gmail.com if it's Google Workspace)
     const transporter = nodemailer.createTransport({
