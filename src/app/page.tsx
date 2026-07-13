@@ -49,12 +49,12 @@ export default function Home() {
     {
       name: "Deluxe Room",
       description: "Elegant rooms with all the essential amenities for a relaxing stay. Features a plush king-size bed, writing desk, and large windows bringing in natural light.",
-      image: "/images/20251216_160416.jpg"
+      image: "/images/20260201_115842.jpg"
     },
     {
       name: "Premium Room",
       description: "Spacious rooms with stunning views and premium comforts. Includes a comfortable seating area, luxurious bathroom amenities, and elevated room service.",
-      image: "/images/20260201_115842.jpg"
+      image: "/images/20251216_160416.jpg"
     },
     {
       name: "Suite",

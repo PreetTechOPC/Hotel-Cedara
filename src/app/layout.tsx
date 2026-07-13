@@ -57,6 +57,47 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} antialiased scroll-smooth`} suppressHydrationWarning>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              "name": "Hotel Cedara",
+              "image": "https://www.cedarahotels.in/_next/image?url=%2Fimages%2F20251216_160416.jpg&w=1920&q=75",
+              "@id": "",
+              "url": "https://www.cedarahotels.in/",
+              "telephone": "9084450098",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "3rd,4th and, 5th floors of the pride hospital, Panchakki Rd, Amba Vihar, Azad Nagar, Heera Nagar, Bamoritalli Bandobasti",
+                "addressLocality": "Haldwani",
+                "postalCode": "263139",
+                "addressCountry": ""
+              },
+              "priceRange": "1600 - 2800",
+              "sameAs": [
+                "https://www.instagram.com/hotel_cedara?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+              ],
+              "openingHoursSpecification": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday"
+                ],
+                "opens": "00:00",
+                "closes": "23:59"
+              }
+            })
+          }}
+        />
+      </head>
       <body className="bg-[#f9f9f9] text-[#333] min-h-screen flex flex-col font-sans" suppressHydrationWarning>
         <Header />
         
@@ -95,7 +136,7 @@ export default function RootLayout({
                 <ul className="space-y-3 text-sm text-gray-400">
                   <li>3rd, 4th and, 5th floors of the pride hospital, Panchakki Rd,<br/>Amba Vihar, Azad Nagar, Heera Nagar,<br/>Bamoritalli Bandobasti, Haldwani,<br/>Uttarakhand 263139</li>
                   <li>090844 50098</li>
-                  <li>info@cedarahotels.com</li>
+                  <li>cedarahotelsandretreats@gmail.com</li>
                 </ul>
                 <h4 className="text-sm font-semibold tracking-wider uppercase mt-8 mb-4">Follow Us</h4>
                 <div className="flex space-x-4">

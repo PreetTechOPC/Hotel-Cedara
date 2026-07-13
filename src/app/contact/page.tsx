@@ -104,7 +104,7 @@ export default function ContactPage() {
               <div>
                 <h4 className="text-sm font-semibold tracking-wider uppercase text-[#111] mb-4">Contact</h4>
                 <p className="text-gray-500 text-sm mb-2">090844 50098 (Reservations)</p>
-                <p className="text-gray-500 text-sm">info@cedarahotels.com</p>
+                <p className="text-gray-500 text-sm">cedarahotelsandretreats@gmail.com</p>
               </div>
             </div>
 

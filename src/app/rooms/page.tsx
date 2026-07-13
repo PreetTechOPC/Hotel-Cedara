@@ -24,7 +24,7 @@ export default function RoomsPage() {
       size: "35 sq.m",
       view: "Valley View",
       occupancy: "2 Adults",
-      image: "/images/20251216_160416.jpg"
+      image: "/images/20260201_115842.jpg"
     },
     {
       id: 3,
@@ -33,7 +33,7 @@ export default function RoomsPage() {
       size: "45 sq.m",
       view: "Mountain View",
       occupancy: "2 Adults, 1 Child",
-      image: "/images/20260201_115842.jpg"
+      image: "/images/20251216_160416.jpg"
     },
     {
       id: 4,
